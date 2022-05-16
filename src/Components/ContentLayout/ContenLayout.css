@@ -1,0 +1,207 @@
+.bg-content {
+  background: #ff385c;
+  position: relative;
+  height: 70%;
+}
+.bg-layout-content{
+  height: 100vh;
+}
+.border {
+  color: #890193;
+}
+.bg-img{
+  height: 520px;
+}
+.card {
+  border: none;
+}
+.card img {
+  border-radius: 10px 10px 0 0;
+}
+.card-content {
+  border-radius: 0 0 10px 10px;
+  color: white;
+  font-weight: 500;
+}
+.experience-card img{
+  height: 600px;
+}
+.experience-card img {
+  position: relative;
+}
+.experience-content {
+  position: absolute;
+  color: white;
+  top: 100px;
+  left: 70px;
+}
+.experience-content button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.host {
+  position: relative;
+}
+.host img{
+  height: 600px;
+}
+.host-content {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+.host-content h1{
+  font-size: 96px;
+  line-height: 1;
+}
+.host-contet button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.menu h1 {
+  font-weight: 500;
+}
+.menu-list ul {
+  padding: 10px 0;
+}
+.menu-list ul li {
+  padding: 5px 0;
+}
+.menu-list ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.host-content h1{
+  font-size: 96px;
+}
+.infor-list ul {
+  margin-left: 10px;
+}
+.infor-list ul li {
+  padding: 0 5px;
+  display: inline-block;
+}
+.infor-list ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.icon a {
+  padding: 0 10px;
+  text-decoration: underline;
+}
+.icon a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.icon span {
+  font-size: 15px;
+}
+.icon a i {
+  font-size: 20px;
+}
+.infor-content{
+  display: flex;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+.layout-content {
+    overflow-x: hidden;
+}
+.bg-layout-content{
+  height: 400px;
+}
+.bg-content{
+  height: 70%;
+}
+.bg-content p{
+  font-size: 30px;
+  height: 75%;
+}
+.bg-img{
+  height: 400px;
+}
+.title-img p {
+  font-size: 20px;
+}
+.border{
+  font-size: 14px;
+  line-height: 20px;
+}
+.card {
+  margin: 10px 0;
+}
+.experience-card{
+  margin: 10px 0;
+}
+.experience-card img{
+  height: 400px;
+}
+.experience-content {
+  top: 100px;
+  left: 20px;
+}
+.experience-content p{
+  font-size: 20px;
+}
+.experience-content button{
+  font-size: 12px;
+  line-height: 16px;
+}
+.experience-airbnb h1{
+  font-size: 30px;
+}
+.host-content {
+  top: 10px;
+  left: 20px;
+}
+.menu{
+  border-bottom: 1px solid #b0b0b0;
+}
+.menu-list ul {
+  padding: 0px;
+}
+.menu-list ul li {
+  padding: 5px 0;
+}
+.infor{
+  margin-top: 0px;
+}
+.infor-list ul {
+  margin-left: 0px;
+}
+.infor-list ul li {
+  display: inline-block;
+}
+.infor-list ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.icon a {
+  padding: 0 10px;
+  text-decoration: underline;
+}
+.icon a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.icon span {
+  font-size: 15px;
+}
+.icon a i {
+  font-size: 18px;
+}
+.infor-content{
+  display: block;
+}
+.infor-content h1{
+  line-height: 10px;
+}
+.host img {
+  height: 400px;
+}
+.host-content h1{
+  font-size: 48px;
+}
+}

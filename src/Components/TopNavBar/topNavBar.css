@@ -1,0 +1,52 @@
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-item {
+  padding: 0.5rem 1.5rem;
+}
+
+/* .dropdown-item:nth-child(2) {
+  border-bottom: 1px solid #ddd;
+} */
+
+.dropdown-item:active {
+  background-color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  outline: none;
+  border: none;
+}
+
+.line {
+  height: 2px;
+  width: 10px;
+  background: dimgray;
+  display: none;
+  transition: all 0.3s;
+  margin-top: -2px;
+}
+
+nav a:hover .line {
+  display: block;
+}
+nav a.active .line {
+  width: 20px;
+  display: block;
+  background: #fff;
+}
+nav a.active span {
+  color: #fff !important;
+}
+
+nav a {
+  transition: all 0.3s;
+}
+
+.book-ticket .dropdown-menu {
+  left: -22px !important;
+}
